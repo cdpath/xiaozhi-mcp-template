@@ -1,0 +1,11 @@
+[project]
+name = "xiaozhi-mcp-template"
+version = "0.1.0"
+description = "A template for creating Xiaozhi MCP servers"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.8.1",
+    "python-dotenv>=1.0.0",
+    "websockets>=11.0.3",
+]
